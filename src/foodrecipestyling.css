@@ -1,3 +1,37 @@
+:root {
+  --primary-color: #225946;
+  --secondary-color: #fa7191;
+  --alternate-color: #e5e1c5;
+}
+
 body {
   font-family: "Inter", sans-serif;
+}
+
+.navbar-bg {
+  background-color: var(--secondary-color);
+}
+
+div.navigation-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.pages {
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--primary-color);
+  padding: 28px 0px;
+  text-align: center;
+}
+
+.pages:hover {
+  color: black;
+  border: 5px solid var(--secondary-color);
+  border-radius: 40px;
+  background-color: var(--alternate-color);
+  padding: 10px 0;
+  margin: 0;
+  transition: all 2ms ease-in;
 }
