@@ -8,6 +8,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.cover {
+  background-image: url("images/IMG_9082.jpeg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
 .navbar-bg {
   background-color: var(--secondary-color);
 }
@@ -21,7 +27,7 @@ div.navigation-button {
 .pages {
   text-decoration: none;
   font-size: 30px;
-  color: var(--primary-color);
+  color: white;
   padding: 28px 0px;
   text-align: center;
 }
@@ -30,8 +36,8 @@ div.navigation-button {
   color: black;
   border: 5px solid var(--secondary-color);
   border-radius: 40px;
-  background-color: var(--alternate-color);
+  background-color: var(--primary-color);
   padding: 10px 0;
   margin: 0;
-  transition: all 2ms ease-in;
+  transition: all 1ms ease-in;
 }
