@@ -14,6 +14,7 @@ body {
   border-radius: 10px;
   max-width: 800px;
   height: 12cm;
+  filter: brightness(1);
 }
 
 .navbar-bg {
@@ -58,4 +59,21 @@ body {
 .img-styling {
   border: 3px solid transparent;
   border-radius: 5px;
+}
+
+.img-filter {
+  filter: brightness(1.4);
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  h5 {
+    display: block;
+  }
 }
