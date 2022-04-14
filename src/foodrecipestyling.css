@@ -9,11 +9,11 @@ body {
 }
 
 .cover {
-  background-image: url("images/IMG_9082.jpeg");
+  background-image: url("images/ingredients.jpeg");
   background-size: cover;
   border-radius: 10px;
   max-width: 800px;
-  height: 20cm;
+  height: 12cm;
 }
 
 .navbar-bg {
@@ -51,6 +51,11 @@ body {
   transition: all 0.5s ease;
 }
 
-.footer{
-    background-color: var(--primary-color);
+.footer {
+  background-color: var(--primary-color);
+}
+
+.img-styling {
+  border: 3px solid transparent;
+  border-radius: 5px;
 }
