@@ -88,6 +88,11 @@ body {
   h1 {
     font-size: 30px;
   }
+
+  h4{
+    font-size: 16px;
+    display: block;
+  }
   h5 {
     display: block;
   }
@@ -95,5 +100,9 @@ body {
   .name,
   .about-text {
     display: block;
+  }
+
+  .about-text{
+    font-size: 13px;
   }
 }
