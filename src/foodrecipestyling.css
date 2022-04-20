@@ -66,16 +66,22 @@ body {
   filter: brightness(1.4);
 }
 
-.blog-link{
+.blog-link,
+.navbar-links {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.blog-link:hover{
+.blog-link:hover {
   color: var(--secondary-color);
 }
+
+.navbar-links:hover {
+  color: var(--alternate-color);
+}
+
 @media (max-width: 576px) {
-  .home-img, .about-img {
+  .home-img {
     display: none;
   }
 
@@ -86,7 +92,8 @@ body {
     display: block;
   }
 
-  .name,.about-text{
+  .name,
+  .about-text {
     display: block;
   }
 }
