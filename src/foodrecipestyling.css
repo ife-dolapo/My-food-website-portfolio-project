@@ -66,13 +66,21 @@ body {
   filter: brightness(1.4);
 }
 
+.blog-link{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.blog-link:hover{
+  color: var(--secondary-color);
+}
 @media (max-width: 576px) {
-  img {
+  .home-img, .about-img {
     display: none;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   h5 {
     display: block;
