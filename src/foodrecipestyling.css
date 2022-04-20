@@ -77,7 +77,7 @@ body {
 }
 
 .navbar-links:hover {
-  color: var(--alternate-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 576px) {
