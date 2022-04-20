@@ -87,18 +87,19 @@ body {
   border-radius: 12px;
 }
 
-.recipe-details{
-  list-style: none;
-display: flex;
-justify-content: space-around;
-text-decoration: underline;
+.recipe-details {
+display:flex;
+justify-content: space-evenly;
+stroke:var(--primary-color);
 }
+
+
+
 
 @media (max-width: 576px) {
   .home-img {
     display: none;
   }
-
   h1 {
     font-size: 30px;
   }
