@@ -102,6 +102,7 @@ body {
   flex: 1;
   border: 2px solid var(--primary-color);
   font-size: 20px;
+  color: var(--secondary-color);
 }
 
 .flex-ingredient:first-child {
