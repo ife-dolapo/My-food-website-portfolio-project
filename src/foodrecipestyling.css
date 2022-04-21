@@ -81,20 +81,32 @@ body {
 }
 
 .recipes-img {
-  width: 500px;
+  width: 480px;
   height: 450px;
   margin-top: 27px;
   border-radius: 12px;
 }
 
 .recipe-details {
-display:flex;
-justify-content: space-evenly;
-stroke:var(--primary-color);
+  display: flex;
+  justify-content: space-evenly;
+  stroke: var(--primary-color);
 }
 
+.flex-container {
+  display: flex;
+}
 
+.flex-ingredient,
+.flex-method {
+  flex: 1;
+  border: 2px solid var(--primary-color);
+  font-size: 20px;
+}
 
+.flex-ingredient:first-child {
+  margin-right: 20px;
+}
 
 @media (max-width: 576px) {
   .home-img {
