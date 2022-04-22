@@ -18,10 +18,6 @@ body {
   margin-top: 10px;
 }
 
-.navbar-bg {
-  background-color: var(--alternate-color);
-}
-
 .nav-title {
   font-size: 32px;
   color: var(--primary-color);
@@ -157,7 +153,13 @@ body {
   .about-text {
     font-size: 13px;
   }
+
+  .recipe-details{
+  direction:ltr;
+  max-width: 390px;
+  }
 }
+
 
 @media (min-width: 768px) {
   .recipe-3 {
