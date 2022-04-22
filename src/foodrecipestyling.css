@@ -109,6 +109,27 @@ body {
   margin-right: 20px;
 }
 
+.recipe-3 {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dotted var(--primary-color);
+}
+
+.ingredients-method {
+  display: flex;
+}
+.ingredients:first-child {
+  margin-right: 40px;
+}
+
+.method {
+  position: static;
+  width: 360px;
+  height: 90px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 @media (max-width: 576px) {
   .home-img {
     display: none;
