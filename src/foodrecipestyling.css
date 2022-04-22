@@ -9,11 +9,10 @@ body {
 }
 
 .cover {
-  background-color: var(--alternate-color);
+  background-image: url("images/undraw_Eating_together.png");
   border:ridge var(--primary-color) ;
-  background-size: cover;
+  background-size:contain;
   border-radius: 10px;
-  
   height: 12cm;
   filter: brightness(1);
   margin-top: 10px;
@@ -57,7 +56,8 @@ body {
 }
 
 .pages-icon{
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 30px;
 }
 
 .footer {
