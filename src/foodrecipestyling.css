@@ -111,7 +111,6 @@ body {
 
 .recipe-3 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   border-bottom: 1px dotted var(--primary-color);
   width: 760px;
@@ -121,10 +120,17 @@ body {
   display: flex;
 }
 
-.ingredients, .method{
-flex: 1;
+.ingredients,
+.method {
+  flex: 1;
 }
 
+.ingredients {
+  list-style: none;
+  text-decoration: underline var(--primary-color);
+  line-height: 30px;
+  padding: 0px;
+}
 .method {
   font-size: 18px;
   margin-left: 0px;
@@ -132,7 +138,6 @@ flex: 1;
 
 .method > h5 {
   color: var(--secondary-color);
-  position: static;
   font-size: 18px;
 }
 
@@ -159,5 +164,14 @@ flex: 1;
 
   .about-text {
     font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .recipe-3 {
+    width: 760px;
+  }
+  .method{
+    box-sizing:calc()
   }
 }
