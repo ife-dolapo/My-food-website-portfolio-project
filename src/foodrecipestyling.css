@@ -95,7 +95,7 @@ body {
   color: var(--primary-color);
 }
 
-.recipe-name, .header{
+.recipe-name{
   color: var(--secondary-color);
 }
 .ingredients-method {
