@@ -32,6 +32,11 @@ body {
   transition: all 0.9s ease-in-out;
 }
 
+.page-title {
+  font-size: 72px;
+  margin-top: 30px;
+}
+
 .pages {
   text-decoration: none;
   font-size: 30px;
@@ -73,7 +78,8 @@ body {
   border-radius: 5px;
 }
 
-.blog-link {
+.blog-link,
+.email-link {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -84,7 +90,8 @@ body {
 }
 
 .blog-link:hover,
-.social-media-links:hover {
+.social-media-links:hover,
+.email-link:hover {
   color: var(--secondary-color);
 }
 
@@ -154,12 +161,11 @@ body {
     font-size: 13px;
   }
 
-  .recipe-details{
-  direction:ltr;
-  max-width: 390px;
+  .recipe-details {
+    direction: ltr;
+    max-width: 390px;
   }
 }
-
 
 @media (min-width: 768px) {
   .recipe-3 {
