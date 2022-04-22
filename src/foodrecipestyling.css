@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-bg {
-  background-color: var(--secondary-color);
+  background-color: var(--alternate-color);
 }
 
 .nav-title {
@@ -77,8 +77,7 @@ body {
   border-radius: 5px;
 }
 
-.blog-link,
-.navbar-links {
+.blog-link {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -91,10 +90,6 @@ body {
 .blog-link:hover,
 .social-media-links:hover {
   color: var(--secondary-color);
-}
-
-.navbar-links:hover {
-  color: var(--primary-color);
 }
 
 .recipes-img {
@@ -158,8 +153,6 @@ body {
   h5 {
     display: block;
   }
-
-
 
   .about-text {
     font-size: 13px;
